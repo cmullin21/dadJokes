@@ -31,8 +31,6 @@ export default {
         this.isLoaded = true
     })
   },
-  components: {
-  },
   data(){
     return{
       isLoaded: false,
