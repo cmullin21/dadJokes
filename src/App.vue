@@ -3,7 +3,7 @@
     <full-page :options="options" id="fullpage" v-if="isLoaded">
     <div v-for="dadJoke in dadJokes" :key="dadJoke.data.id" class="section h-screen my-auto">
       <div class="mobileContainer md:container flex flex-col">
-        <img src="./assets/dadjokes.png" class="h-20 w-20 md:h-48 md:w-48 mb-6 mx-auto mt-12 md:mt-64">
+        <img src="./assets/dadjokes.svg" class="h-20 w-20 md:h-48 md:w-48 mb-6 mx-auto mt-12 md:mt-64">
           <p class="text-center text-2xl">{{ dadJoke.data.title }}</p>
           <p class="text-center text-2xl">{{ dadJoke.data.selftext }}</p>
           <div>
